@@ -1,0 +1,17 @@
+@import url("reset.css");
+@import url("css/welcome.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Oleo+Script+Swash+Caps&display=swap");
+
+body * {
+  font-family: " Nunito", sans-serif;
+}
+
+.welcome_text h2 {
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+:root {
+  --welcomebackgroud-color: #f3f2ed;
+  --welcome-font-color: #455d3e;
+  --welcome-light-color: #ced2c7;
+}
