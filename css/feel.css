@@ -1,0 +1,25 @@
+.feel_form {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feel_form button {
+  width: 120px;
+  height: 30px;
+  margin: 10px 30px 20px 30px;
+  border-radius: 5px;
+  background-color: var(--welcomebackgroud-color);
+  border: 1px solid var(--welcome-font-color) 0.6;
+  box-shadow: 2px 2px 10px var(--welcome-font-color);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--welcome-font-color);
+  transition: all 0.2s linear;
+}
+
+.feel_form button:hover {
+  transform: scale(1.2);
+}
