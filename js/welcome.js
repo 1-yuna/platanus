@@ -8,10 +8,10 @@ const welcomeNameTextP = document.querySelectorAll(".welcome_text p");
 
 // 버튼 클릭시 글 삭제, 변경 함수
 function welcomeNameBtnClick() {
-  const saveUsername = localStorage.getItem("savename");
+  const getName = localStorage.getItem("savename");
 
   // 삭제
-  if (saveUsername !== null) {
+  if (getName !== null) {
     welcomeNameTextH.innerText = "How are you feeling today?";
     for (var i = 0; i < welcomeNameTextP.length; i++) {
       welcomeNameTextP[i].remove();
