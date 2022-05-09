@@ -9,7 +9,7 @@ function feelbtnclick2(event) {
   event.preventDefault();
   const userfeel = "sad";
   localStorage.setItem("savefeel", userfeel);
-  newPage();
+  window.location.href = "main.html";
 }
 
 function feelbtnclick3(event) {
