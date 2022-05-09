@@ -1,0 +1,83 @@
+.main_body_backgroud {
+  background-image: url("../img/배경사진.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_backgroud {
+  width: 1200px;
+  height: 600px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/*high*/
+.main_high {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_high-box-common {
+  border-radius: 10px;
+  height: 200px;
+}
+
+.main_high-profile-box {
+  width: 200px;
+  background-color: aliceblue;
+}
+
+.main_high-time-day-box {
+  width: 300px;
+  background-color: aliceblue;
+}
+
+.main_high-music-box {
+  width: 600px;
+  background-color: aliceblue;
+}
+
+/*middle*/
+.main_middle {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 20px 0;
+}
+
+/*low*/
+.main_low {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_low-box-common {
+  height: 330px;
+  border-radius: 10px;
+}
+
+.main_low-left-box {
+  background-color: aliceblue;
+  width: 300px;
+}
+
+.main_low-memo-box {
+  background-color: aliceblue;
+  width: 650px;
+}
+
+.main_low-right-box{
+    background-color: aliceblue;
+  width: 150px;
+}
+}
