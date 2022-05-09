@@ -2,7 +2,15 @@
 @import url("css/welcome.css");
 @import url("css/feel.css");
 @import url("css/main.css");
+@import url("css/main-high.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Oleo+Script+Swash+Caps&display=swap");
+@font-face {
+  font-family: "LAB디지털";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body * {
   font-family: " Nunito", sans-serif;
@@ -10,6 +18,10 @@ body * {
 
 .welcome_text h2 {
   font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.main_high-time-box p {
+  font-family: "LAB디지털";
 }
 
 :root {
