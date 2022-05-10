@@ -179,12 +179,13 @@
   width: 150px;
   height: 4px;
   background-color: var(--main-background-color);
-  border-radius: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .music-progress {
   background-color: var(--welcome-font-color);
-  border-radius: 10px;
+  border-radius: 5px;
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
