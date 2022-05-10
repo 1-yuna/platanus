@@ -8,7 +8,7 @@ function getclock() {
   const minutes = String(date.getMinutes()).padStart(2, "0");
   const seconds = String(date.getSeconds()).padStart(2, "0");
 
-  const monthNum = String(date.getMonth()).padStart(2, "0");
+  const monthNum = String(date.getMonth() + 1).padStart(2, "0");
   const dateNum = String(date.getDate()).padStart(2, "0");
 
   clock.innerText = `${hours} : ${minutes} : ${seconds}`;
