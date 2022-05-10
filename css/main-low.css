@@ -1,0 +1,25 @@
+/*low*/
+.main_low {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_low-box-common {
+  height: 230px;
+  border-radius: 10px;
+}
+
+.main_low-left-box {
+  background-color: aliceblue;
+  width: 200px;
+}
+
+.main_low-memo-box {
+  background-color: aliceblue;
+  width: 570px;
+}
+
+.main_low-right-box {
+  background-color: aliceblue;
+  width: 150px;
+}
