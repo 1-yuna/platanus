@@ -1,0 +1,8 @@
+/*middle*/
+.main_middle {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 20px 0;
+}
