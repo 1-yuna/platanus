@@ -30,7 +30,7 @@ function welcomeNameBtnClick() {
     feelbtn1.innerText = "happy";
     feelbtn2.innerText = "sad";
     feelbtn3.innerText = "angry";
-    feelbtn4.innerText = "worry";
+    feelbtn4.innerText = "love";
     feelbtn1.style.cursor = "pointer";
     feelbtn2.style.cursor = "pointer";
     feelbtn3.style.cursor = "pointer";
