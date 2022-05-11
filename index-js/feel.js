@@ -21,7 +21,7 @@ function feelbtnclick3(event) {
 
 function feelbtnclick4(event) {
   event.preventDefault();
-  const userfeel = "worry";
+  const userfeel = "love";
   localStorage.setItem("savefeel", userfeel);
   window.location.href = "main.html";
 }
