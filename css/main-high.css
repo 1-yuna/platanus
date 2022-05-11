@@ -89,6 +89,8 @@
   box-sizing: border-box;
   background-color: var(--welcome-font-color);
   box-shadow: 2px 2px 10px var(--welcome-font-color);
+  border: 2px solid var(--welcome-font-color);
+  box-sizing: border-box;
 }
 
 .main_high-month-date-box {
@@ -97,7 +99,7 @@
   width: 70px;
   height: 60px;
   background-color: var(--main-background-color);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
@@ -136,6 +138,8 @@
     var(--welcome-light-color)
   );
   box-shadow: 2px 2px 10px var(--welcome-font-color);
+  border: 2px solid var(--welcome-font-color);
+  box-sizing: border-box;
 }
 
 .music-container {
@@ -149,14 +153,14 @@
   border-radius: 10px;
   position: relative;
   bottom: -35px;
-  box-shadow: 2px 2px 10px var(--welcome-font-color);
+  box-shadow: 2px 2px 25px var(--welcome-font-color);
 }
 
 .music-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px 10px 15px 140px;
+  padding: 10px 10px 10px 140px;
   box-sizing: border-box;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.2);
@@ -170,9 +174,17 @@
 }
 
 .music-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   color: var(--main-background-color);
+}
+
+.music-text {
+  font-size: 8px;
+  font-weight: 300;
+  color: var(--main-background-color);
+  position: relative;
+  top: -4px;
 }
 
 .music-progress-container {
