@@ -15,8 +15,8 @@ if (getFeel === "angry") {
   profileImg.innerText = "🤬";
 }
 
-if (getFeel === "worry") {
-  profileImg.innerText = "🥺";
+if (getFeel === "love") {
+  profileImg.innerText = "🥰";
 }
 
 profileName.innerText = getName;
