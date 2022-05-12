@@ -16,7 +16,6 @@ if (getFeel === "happy") {
   const chooseMusicHappy =
     musicHappy[Math.floor(Math.random() * musicHappy.length)];
 
-  console.log(chooseMusicHappy);
   musicPlay.src = `music/${chooseMusicHappy}.mp3`;
 
   if (chooseMusicHappy === musicHappy[0]) {
@@ -70,7 +69,6 @@ if (getFeel === "sad") {
 
   const chooseMusicSad = musicSad[Math.floor(Math.random() * musicSad.length)];
 
-  console.log(chooseMusicSad);
   musicPlay.src = `music/${chooseMusicSad}.mp3`;
 
   if (chooseMusicSad === musicSad[0]) {
@@ -107,5 +105,110 @@ if (getFeel === "sad") {
     musicImg.src = "img/sad-4.jpg";
     middleText.innerText =
       "빨리 도착하는 것이 목표가 아니다 힘들 땐 쉬어가라      ";
+  }
+}
+
+if (getFeel === "angry") {
+  const musicAngry = [
+    "angry-0",
+    "angry-1",
+    "angry-2",
+    "angry-3",
+    "angry-4",
+    "angry-5",
+  ];
+
+  const chooseMusicAngry =
+    musicAngry[Math.floor(Math.random() * musicAngry.length)];
+
+  musicPlay.src = `music/${chooseMusicAngry}.mp3`;
+
+  if (chooseMusicAngry === musicAngry[0]) {
+    musicTitle.innerText = "꺼져";
+    musicText.innerText = "- 형돈이와 대준이";
+    musicImg.src = "img/angry-0.jpg";
+    middleText.innerText = "참을 인 세 번이면 호구";
+  }
+
+  if (chooseMusicAngry === musicAngry[1]) {
+    musicTitle.innerText = "챔피언";
+    musicText.innerText = "- 싸이";
+    musicImg.src = "img/angry-1.jpg";
+    middleText.innerText = "피할 수 없으면 즐겨라";
+  }
+
+  if (chooseMusicAngry === musicAngry[2]) {
+    musicTitle.innerText = "abcdefu";
+    musicText.innerText = "- GAYLE";
+    musicImg.src = "img/angry-2.jpg";
+    middleText.innerText = "너의 적을 용서하되 그 새끼의 이름은 기억해둬라";
+  }
+
+  if (chooseMusicAngry === musicAngry[3]) {
+    musicTitle.innerText = "good 4 u";
+    musicText.innerText = "- Olivia Rodrigo";
+    musicImg.src = "img/angry-3.jpg";
+    middleText.innerText = "헌신하면 헌신짝 된다.";
+  }
+
+  if (chooseMusicAngry === musicAngry[4]) {
+    musicTitle.innerText = "Thriving";
+    musicText.innerText = "- Upsahl";
+    musicImg.src = "img/angry-4.jpg";
+    middleText.innerText = "가는 말이 고우면 얕본다.";
+  }
+
+  if (chooseMusicAngry === musicAngry[5]) {
+    musicTitle.innerText = "Break My Heart Myself";
+    musicText.innerText = "- Bebe Rexha";
+    musicImg.src = "img/angry-5.jpg";
+    middleText.innerText =
+      "곤경에 처한 사람을 도와주면 걔가 나중에 또 곤경에 처했을 때 널 떠올릴 거다.";
+  }
+}
+
+if (getFeel === "love") {
+  const musicLove = ["love-0", "love-1", "love-2", "love-3", "love-4"];
+
+  const chooseMusicLove =
+    musicLove[Math.floor(Math.random() * musicLove.length)];
+
+  musicPlay.src = `music/${chooseMusicLove}.mp3`;
+
+  if (chooseMusicLove === musicLove[0]) {
+    musicTitle.innerText = "Settle For Less";
+    musicText.innerText = "- Before You Exit";
+    musicImg.src = "img/love-0.jpg";
+    middleText.innerText =
+      "사랑받고 싶다면 사랑하라, 그리고 사랑스럽게 행동하라";
+  }
+
+  if (chooseMusicLove === musicLove[1]) {
+    musicTitle.innerText = "옥탑방";
+    musicText.innerText = "- N.Flying(엔플라잉)";
+    musicImg.src = "img/love-1.jpg";
+    middleText.innerText = "사랑은 무엇보다도 자신을 위한 선물이다.";
+  }
+
+  if (chooseMusicLove === musicLove[2]) {
+    musicTitle.innerText = "Crazy AF";
+    musicText.innerText = "- In Real Life";
+    musicImg.src = "img/love-2.jpg";
+    middleText.innerText = "도레미파 솔로시죠?";
+  }
+
+  if (chooseMusicLove === musicLove[3]) {
+    musicTitle.innerText = "What makes you beautiful";
+    musicText.innerText = "- One Direction";
+    musicImg.src = "img/love-3.jpg";
+    middleText.innerText = "아무런 기대없이 사랑하는 자만이 참된 사랑을 안다.";
+  }
+
+  if (chooseMusicLove === musicLove[4]) {
+    musicTitle.innerText = "You belong with me";
+    musicText.innerText = "- Taylor Swift";
+    musicImg.src = "img/love-4.jpg";
+    middleText.innerText =
+      "사랑이란 서로 마주보는 것이 아니라, 둘이서 똑같은 방향을 내다보는 것이다.";
   }
 }
