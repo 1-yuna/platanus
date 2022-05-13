@@ -2,8 +2,10 @@ const musicTitle = document.querySelector(".music-title");
 const musicText = document.querySelector(".music-text");
 const musicImg = document.querySelector(".music-img");
 const middleText = document.querySelector(".main_middle-text");
+const mainLowLeftlogoutI = document.querySelector(".main_low-left-logout-i");
 
 if (getFeel === "happy") {
+  mainLowLeftlogoutI.innerText = "💛";
   const musicHappy = [
     "happy-0",
     "happy-1",
@@ -65,6 +67,7 @@ if (getFeel === "happy") {
 }
 
 if (getFeel === "sad") {
+  mainLowLeftlogoutI.innerText = "💙";
   const musicSad = ["Sad-0", "Sad-1", "Sad-2", "Sad-3", "Sad-4"];
 
   const chooseMusicSad = musicSad[Math.floor(Math.random() * musicSad.length)];
@@ -109,6 +112,7 @@ if (getFeel === "sad") {
 }
 
 if (getFeel === "angry") {
+  mainLowLeftlogoutI.innerText = "💔";
   const musicAngry = [
     "angry-0",
     "angry-1",
@@ -168,6 +172,7 @@ if (getFeel === "angry") {
 }
 
 if (getFeel === "love") {
+  mainLowLeftlogoutI.innerText = "💗";
   const musicLove = ["love-0", "love-1", "love-2", "love-3", "love-4"];
 
   const chooseMusicLove =
