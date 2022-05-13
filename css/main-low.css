@@ -21,8 +21,8 @@
 .main_low-left-img {
   width: 150px;
   height: 150px;
-  box-sizing: border-box;
   border: 10px solid var(--welcome-font-color);
+  box-sizing: border-box;
   border-radius: 5px;
   box-shadow: 2px 2px 10px var(--welcome-font-color);
 }
