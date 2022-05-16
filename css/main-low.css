@@ -74,10 +74,132 @@
 
 /*low-memo*/
 .main_low-memo-box {
-  background-color: aliceblue;
+  display: flex;
   width: 620px;
+  box-shadow: 2px 2px 10px var(--welcome-font-color);
 }
 
+.main_low-memo-left {
+  background-color: var(--welcome-font-color);
+  width: 180px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.main_low-memo-left p {
+  padding: 20px 0 0 15px;
+  box-sizing: border-box;
+  color: var(--main-background-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main_low-memo-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 4px solid var(--welcome-font-color);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main_low-memo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  background-color: var(--welcome-font-color);
+}
+
+.main_low-memo-input {
+  width: 330px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--welcome-font-color);
+  outline: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main_low-memo-input::placeholder {
+  color: var(--welcome-light-color);
+}
+
+.main_low-memo-btn {
+  width: 55px;
+  height: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: var(--main-background-color);
+  border: none;
+}
+
+.main_low-memo-btn:hover {
+  box-shadow: 2px 2px 5px rgba(117, 117, 117, 0.5) inset;
+}
+
+.main_low-memo-list-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: var(--main-background-color);
+  height: 100%;
+  overflow: auto;
+  border-bottom-right-radius: 10px;
+}
+
+.main_low-memo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 10px;
+  height: 20px;
+  border: 1px solid var(--welcome-light-color);
+}
+
+.main_low-memo-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--welcome-font-color);
+}
+
+.main_low-memo-text-btn button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid var(--welcome-light-color);
+  background-color: var(--main-background-color);
+  cursor: pointer;
+}
+
+.main_low-memo-text-btn button:hover {
+  box-shadow: 2px 2px 5px rgba(117, 117, 117, 0.5) inset;
+}
+
+.main_low-memo-text-i1 {
+  color: var(--welcome-font-color);
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+
+.main_low-memo-text-i2 {
+  color: red;
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
 /*low-right*/
 .main_low-right-box {
   background-color: aliceblue;
