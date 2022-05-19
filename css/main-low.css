@@ -53,7 +53,7 @@
   position: absolute;
   border: 10px solid transparent;
   border-bottom-color: var(--welcome-font-color);
-  top: -20px;
+  top: -21px;
   right: 50px;
 }
 
