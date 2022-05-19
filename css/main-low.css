@@ -178,6 +178,15 @@
   color: var(--welcome-font-color);
 }
 
+.main_low-memo-text-line {
+  text-decoration: line-through;
+}
+
+.main_low-memo-text-btn {
+  width: 45px;
+  display: flex;
+  justify-content: space-between;
+}
 .main_low-memo-text-btn button {
   width: 20px;
   height: 20px;
