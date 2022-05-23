@@ -11,8 +11,8 @@
 }
 
 .welcome_body {
-  width: 80%;
-  height: 280px;
+  width: 700px;
+  height: 300px;
   box-sizing: border-box;
   background-color: var(--welcomebackgroud-color);
   display: flex;
@@ -23,6 +23,13 @@
   box-shadow: 15px 15px 35px 10px rgba(0, 0, 0, 0.2);
   outline: 2px solid var(--welcome-light-color);
   outline-offset: -15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .welcome_body {
+    width: 80%;
+    height: 280px;
+  }
 }
 
 .welcome_text {
