@@ -25,7 +25,14 @@
   outline-offset: -15px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 10px) and(max-width: 1000px) {
+  .welcome_body {
+    width: 80%;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1001px) {
   .welcome_body {
     width: 80%;
     height: 280px;
