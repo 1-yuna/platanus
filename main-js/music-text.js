@@ -184,8 +184,7 @@ if (getFeel === "love") {
     musicTitle.innerText = "Settle For Less";
     musicText.innerText = "- Before You Exit";
     musicImg.src = "img/love-0.jpg";
-    middleText.innerText =
-      "사랑받고 싶다면 사랑하라, 그리고 사랑스럽게 행동하라";
+    middleText.innerText = "우리는 오로지 사랑을 함으로써 사랑을 배울 수 있다.";
   }
 
   if (chooseMusicLove === musicLove[1]) {
@@ -206,7 +205,8 @@ if (getFeel === "love") {
     musicTitle.innerText = "What makes you beautiful";
     musicText.innerText = "- One Direction";
     musicImg.src = "img/love-3.jpg";
-    middleText.innerText = "아무런 기대없이 사랑하는 자만이 참된 사랑을 안다.";
+    middleText.innerText =
+      "얼마나 많이 주느냐보다 얼마나 많은 사랑을 담느냐가 중요하다.";
   }
 
   if (chooseMusicLove === musicLove[4]) {
