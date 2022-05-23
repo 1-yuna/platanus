@@ -23,27 +23,13 @@
   outline-offset: -15px;
 }
 
-@media screen and (min-width: 10px) and(max-width: 500px) {
-  .welcome_body {
-    width: 80%;
-    height: 280px;
-  }
-}
-
-@media screen and (min-width: 501px) {
-  .welcome_body {
-    width: 700px;
-    height: 300px;
-  }
-}
-
 .welcome_text {
   text-align: center;
 }
 
 .welcome_text h2 {
-  font-weight: 400;
   font-size: 40px;
+  font-weight: 400;
   color: var(--welcome-font-color);
   padding: 10px;
 }
@@ -100,4 +86,18 @@
 
 .fa-leaf {
   color: var(--welcome-font-color);
+}
+
+@media screen and (min-width: 10px) and(max-width: 500px) {
+  .welcome_body {
+    width: 80%;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .welcome_body {
+    width: 700px;
+    height: 300px;
+  }
 }
